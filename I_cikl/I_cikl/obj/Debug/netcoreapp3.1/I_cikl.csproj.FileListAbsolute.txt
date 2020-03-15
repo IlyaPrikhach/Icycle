@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.exe
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.deps.json
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.runtimeconfig.json
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.runtimeconfig.dev.json
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.dll
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\bin\Debug\netcoreapp3.1\I_cikl.pdb
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\obj\Debug\netcoreapp3.1\I_cikl.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\obj\Debug\netcoreapp3.1\I_cikl.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\obj\Debug\netcoreapp3.1\I_cikl.AssemblyInfo.cs
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\obj\Debug\netcoreapp3.1\I_cikl.dll
+C:\Users\user\Desktop\Epam\I_cikl\I_cikl\obj\Debug\netcoreapp3.1\I_cikl.pdb
