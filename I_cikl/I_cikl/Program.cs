@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace задача_01_И_цикл_Сшарп
+namespace Icycle
 {
     class Program
     {
         static double f(double x)
         {
-            return Math.Acos(x) - Math.Pow(1 - Math.Pow(x, 2) * 0.3, 1 / 2);
+            return Math.Acos(x) - Math.Pow(1 - Math.Pow(x, 2) * 0.3, 1 / 2);           
         }
         static double fПроизводная(double x)
         {
@@ -25,10 +25,19 @@ namespace задача_01_И_цикл_Сшарп
         }
         static void вводДанных(out double a, out double b, out double точность)
         {
-            string[] аргументы = Console.ReadLine().Split(' ');
-            a = double.Parse(аргументы[0]);
-            b = double.Parse(аргументы[1]);
-            точность = double.Parse(аргументы[2]);
+            try
+            {
+                Console.WriteLine("Введите область [a,b] и точность");
+                string[] аргументы = Console.ReadLine().Replace('.', ',').Split(' ');
+                a = double.Parse(аргументы[0]);
+                b = double.Parse(аргументы[1]);
+                точность = double.Parse(аргументы[2]);
+            }
+            catch
+            {
+                Console.WriteLine("неверные данные");
+                вводДанных(out a, out b, out точность);
+            }
         }
         static void решениеЗадачи(double a, double b, double точность)
         {
